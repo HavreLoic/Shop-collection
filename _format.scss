@@ -1,0 +1,25 @@
+$center-contain: center;
+$main-padding: 2.125rem 5rem 1rem;
+$georgia-font-family: "Georgia";
+$transition: 1s ease-in-out;
+
+@mixin body {
+  text-align: $center-contain;
+  color: #000000;
+  background: #ffffff;
+  font-family: "Arial";
+  padding: 1rem;
+}
+@mixin hover {
+  color: rgb(102, 102, 190);
+  cursor: pointer;
+}
+
+@mixin h1 {
+  font-family: "Georgia";
+  font-style: italic;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: -1px;
+  margin: 1rem 0 0;
+}
